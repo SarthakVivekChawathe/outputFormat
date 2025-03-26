@@ -1,0 +1,16 @@
+{
+  "citations": [
+    {
+      "id": 1,
+      "type": "journal",
+      "style": "NLM",
+      "citation": "Smith J, Doe A. Title of the study. *JAMA*. 2022;327(4):321-330."
+    },
+    {
+      "id": 2,
+      "type": "guideline",
+      "style": "APA",
+      "citation": "American Heart Association. (2023). Hypertension Management Guidelines. https://www.heart.org/hypertension"
+    }
+  ]
+}

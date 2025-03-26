@@ -1,0 +1,60 @@
+{
+  "tables": [
+    {
+      "title": "Blood Pressure Ranges",
+      "headers": ["Category", "Systolic", "Diastolic"],
+      "rows": [
+        ["Normal", "<120", "<80"],
+        ["Elevated", "120–129", "<80"],
+        ["Hypertension Stage 1", "130–139", "80–89"]
+      ]
+    },
+    {
+      "title": "Diabetes Diagnostic Criteria",
+      "headers": ["Test", "Normal", "Prediabetes", "Diabetes"],
+      "rows": [
+        ["Fasting Plasma Glucose (mg/dL)", "<100", "100–125", "≥126"],
+        ["Oral Glucose Tolerance Test (mg/dL)", "<140", "140–199", "≥200"],
+        ["HbA1c (%)", "<5.7", "5.7–6.4", "≥6.5"]
+      ]
+    },
+    {
+      "title": "Vital signs over the last 24 hours",
+      "headers": [
+        "Vital Signs",
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Normal Range"
+      ],
+      "rows": [
+        ["Heart Rate", "75 bpm", "78 bpm", "80 bpm", "60–100 bpm"],
+        [
+          "Blood Pressure",
+          "120/80 mmHg",
+          "118/79 mmHg",
+          "119/81 mmHg",
+          "90/60 - 120/80 mmHg"
+        ],
+        ["Temperature", "98.6°F", "98.7°F", "98.7°F", "97.8°F - 99.1°F"],
+        [
+          "Respiratory Rate",
+          "16 breaths/min",
+          "17 breaths/min",
+          "18 breaths/min",
+          "12–20 breaths/min"
+        ]
+      ]
+    },
+    {
+      "title": "Vital signs over the last 24 hours",
+      "headers": ["Intake/Output Type", "Total Amount", "Normal Range"],
+      "rows": [
+        ["Oral Intake", "800 ml", "800 - 1200 ml (Varies by patient)"],
+        ["IV Fluids", "1000 ml", "Based on patient condition"],
+        ["Urine Output", "1500 ml", "800 - 2000 ml (Normal Output)"],
+        ["Other Output", "200 ml", "Varies by condition"]
+      ]
+    }
+  ]
+}

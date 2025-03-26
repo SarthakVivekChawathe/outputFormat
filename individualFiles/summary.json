@@ -1,0 +1,17 @@
+{
+  "summary": "This is a concise clinical answer for quick physician review.",
+  "details": [
+    {
+      "heading": "Key Insights",
+      "content": "This section contains detailed clinical information, structured with bullet points and highlights for readability.",
+      "bullet_points": [
+        "Point 1 with **bold terms** for emphasis.",
+        "Point 2 with structured elaboration."
+      ]
+    },
+    {
+      "heading": "Supporting Evidence",
+      "content": "Detailed rationale with optional inline citation markers [1], [2]."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "summary": "This is a concise clinical answer for quick physician review.",
+  "variations": [
+    {
+      "format": "default",
+      "details": [
+        {
+          "heading": "Key Insights",
+          "content": "This section contains detailed clinical information, structured with bullet points and highlights for readability.",
+          "bullet_points": [
+            "Point 1 with **bold terms** for emphasis.",
+            "Point 2 with structured elaboration."
+          ]
+        },
+        {
+          "heading": "Supporting Evidence",
+          "content": "Detailed rationale with optional inline citation markers [1], [2]."
+        }
+      ]
+    },
+    {
+      "format": "key_value_pairs",
+      "details": {
+        "Key Insights": {
+          "content": "This section contains detailed clinical information, structured with bullet points and highlights for readability.",
+          "bullet_points": [
+            "Point 1 with **bold terms** for emphasis.",
+            "Point 2 with structured elaboration."
+          ]
+        },
+        "Supporting Evidence": {
+          "content": "Detailed rationale with optional inline citation markers [1], [2]."
+        }
+      }
+    },
+    {
+      "format": "array_of_objects",
+      "details": [
+        {
+          "label": "Key Insights",
+          "value": {
+            "content": "This section contains detailed clinical information, structured with bullet points and highlights for readability.",
+            "bullet_points": [
+              "Point 1 with **bold terms** for emphasis.",
+              "Point 2 with structured elaboration."
+            ]
+          }
+        },
+        {
+          "label": "Supporting Evidence",
+          "value": {
+            "content": "Detailed rationale with optional inline citation markers [1], [2]."
+          }
+        }
+      ]
+    },
+    {
+      "format": "nested_structure",
+      "categories": {
+        "Key Insights": {
+          "description": "This section contains detailed clinical information, structured with bullet points and highlights for readability.",
+          "points": [
+            "Point 1 with **bold terms** for emphasis.",
+            "Point 2 with structured elaboration."
+          ]
+        },
+        "Supporting Evidence": {
+          "description": "Detailed rationale with optional inline citation markers [1], [2]."
+        }
+      }
+    },
+    {
+      "format": "flat_structure",
+      "details": [
+        {
+          "tag": "Key Insights",
+          "description": "This section contains detailed clinical information, structured with bullet points and highlights for readability.",
+          "points": [
+            "Point 1 with **bold terms** for emphasis.",
+            "Point 2 with structured elaboration."
+          ]
+        },
+        {
+          "tag": "Supporting Evidence",
+          "description": "Detailed rationale with optional inline citation markers [1], [2]."
+        }
+      ]
+    },
+    {
+      "format": "compact",
+      "details": [
+        {
+          "heading": "Key Insights",
+          "content": "This section contains detailed clinical information.",
+          "points": ["Point 1", "Point 2"]
+        },
+        {
+          "heading": "Supporting Evidence",
+          "content": "Detailed rationale with optional inline citation markers."
+        }
+      ]
+    }
+  ]
+}

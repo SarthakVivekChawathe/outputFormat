@@ -1,0 +1,77 @@
+{
+  "charts": [
+    {
+      "title": "Cholesterol Levels Over Time (Single Line Chart)",
+      "type": "line",
+      "data": {
+        "labels": ["Jan", "Feb", "Mar"],
+        "datasets": [
+          {
+            "label": "LDL",
+            "values": [130, 125, 120]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Cholesterol Levels Over Time (Bar Chart)",
+      "type": "bar",
+      "data": {
+        "labels": ["Jan", "Feb", "Mar"],
+        "datasets": [
+          {
+            "label": "HDL",
+            "values": [60, 65, 70]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Cholesterol Distribution (Pie Chart)",
+      "type": "pie",
+      "data": {
+        "labels": ["LDL", "HDL", "Triglycerides"],
+        "datasets": [
+          {
+            "label": "Cholesterol Levels",
+            "values": [130, 60, 150]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Cholesterol Levels Scatter Plot",
+      "type": "scatter",
+      "data": {
+        "labels": ["Jan", "Feb", "Mar"],
+        "datasets": [
+          {
+            "label": "LDL",
+            "values": [130, 125, 120]
+          },
+          {
+            "label": "HDL",
+            "values": [60, 65, 70]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Cholesterol Levels Over Time (Multiple Lines Chart)",
+      "type": "line",
+      "data": {
+        "labels": ["Jan", "Feb", "Mar"],
+        "datasets": [
+          {
+            "label": "LDL",
+            "values": [130, 125, 120]
+          },
+          {
+            "label": "HDL",
+            "values": [60, 65, 70]
+          }
+        ]
+      }
+    }
+  ]
+}
